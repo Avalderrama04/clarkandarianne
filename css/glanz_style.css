@@ -68,6 +68,23 @@
 	09.2 Tablet
 ======================================
 */
+#just-line-break {
+   white-space: pre-line;
+}
+  
+#line-break-and-tab {
+   white-space: pre-wrap;
+}
+
+.grey {
+	color: #666
+}
+
+@font-face {
+	font-family: Parisenne;
+	src: url('/fonts/Parisienne-Regular.ttf');
+}
+
 
 
 /*===============================================*/
@@ -2932,8 +2949,8 @@ ul.mega-menu {
 
 /*Invitations*/
 .gla_invitation_i {
-	width: 525px;
-	height: 743px;
+	width: 625px;
+	height: 800px;
 	-webkit-background-size: cover;
 	background-size: cover;
 	position: relative;
@@ -2944,12 +2961,14 @@ ul.mega-menu {
 	text-align: center;
 	padding: 120px 140px;
 	color: #000;
+	margin-top: 0;
 	-webkit-box-shadow: 0 1.5px 9px 0 rgba(0,0,0,0.2);
   -moz-box-shadow: 0 1.5px 9px 0 rgba(0,0,0,0.2);
   box-shadow: 0 1.5px 9px 0 rgba(0,0,0,0.2);
   -webkit-transition: all 0.3s;
   -o-transition: all 0.3s;
   transition: all 0.3s;
+  
 }
 	.gla_invitation_i:hover {
 		-webkit-box-shadow: 0px 9px 32px -1px rgba(0,0,0,0.2);
@@ -2959,7 +2978,7 @@ ul.mega-menu {
 	}
 .gla_invitation_i h2 {
 	font-size: 40px;
-	line-height: 30px;
+	line-height: 15px;
 }
 .gla_invitation_container {
 	padding: 100px 0;
