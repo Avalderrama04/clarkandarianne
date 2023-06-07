@@ -5109,6 +5109,14 @@ footer {
 	text-transform: uppercase;
 	margin: 0;
 }
+.gla_post_title h4 {
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	font:600 15px/30px Dosis, Arial;
+	text-transform: uppercase;
+	margin: 0;
+}
 .gla_post_img {
 	
 	display:flex;

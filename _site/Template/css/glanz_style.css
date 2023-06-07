@@ -68,47 +68,6 @@
 	09.2 Tablet
 ======================================
 */
-#just-line-break {
-   white-space: pre-line;
-}
-  
-#line-break-and-tab {
-   white-space: pre-wrap;
-}
-
-.grey {
-	color: #666
-}
-
-@font-face {
-	font-family: Parisenne;
-	src: url('/fonts/Parisienne-Regular.ttf');
-}
-
-.center-justified {
-text-align: justify;
--moz-text-align-last: center;
-text-align-last: center;
-}
-
-.styled {
-    border: 0;
-    line-height: 2.5;
-    padding: 0 20px;
-	font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1rem;
-    text-align: center;
-    color: #fff;
-    text-shadow: 1px 1px 1px #000;
-    border-radius: 10px;
-    background-color: rgb(62, 150, 237);
-    background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0));
-}
-
-.styled:active {
-    box-shadow: inset -2px -2px 3px rgba(53, 169, 247, 0.6), inset 2px 2px 3px rgba(0, 0, 0, 0.6);
-}
-
 
 
 /*===============================================*/
@@ -2973,8 +2932,8 @@ ul.mega-menu {
 
 /*Invitations*/
 .gla_invitation_i {
-	width: 625px;
-	height: 800px;
+	width: 525px;
+	height: 743px;
 	-webkit-background-size: cover;
 	background-size: cover;
 	position: relative;
@@ -2985,14 +2944,12 @@ ul.mega-menu {
 	text-align: center;
 	padding: 120px 140px;
 	color: #000;
-	margin-top: 0;
 	-webkit-box-shadow: 0 1.5px 9px 0 rgba(0,0,0,0.2);
   -moz-box-shadow: 0 1.5px 9px 0 rgba(0,0,0,0.2);
   box-shadow: 0 1.5px 9px 0 rgba(0,0,0,0.2);
   -webkit-transition: all 0.3s;
   -o-transition: all 0.3s;
   transition: all 0.3s;
-  
 }
 	.gla_invitation_i:hover {
 		-webkit-box-shadow: 0px 9px 32px -1px rgba(0,0,0,0.2);
@@ -3002,7 +2959,7 @@ ul.mega-menu {
 	}
 .gla_invitation_i h2 {
 	font-size: 40px;
-	line-height: 15px;
+	line-height: 30px;
 }
 .gla_invitation_container {
 	padding: 100px 0;
@@ -5102,28 +5059,12 @@ footer {
 	height: auto;
 }
 .gla_post_title h3 {
-	display:flex;
-	justify-content: center;
-	align-items: center;
 	font:600 18px/32px Dosis, Arial;
 	text-transform: uppercase;
 	margin: 0;
 }
-.gla_post_title h4 {
-	display:flex;
-	justify-content: center;
-	align-items: center;
-	font:600 15px/30px Dosis, Arial;
-	text-transform: uppercase;
-	margin: 0;
-}
 .gla_post_img {
-	
-	display:flex;
-	justify-content: center;
-	align-items: center;
 	margin-bottom: 30px;
-	
 }
 	.gla_post_img a {
 		-webkit-transition: opacity 0.3s;
